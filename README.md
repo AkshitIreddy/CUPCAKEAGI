@@ -102,3 +102,30 @@ Here are some of the key features of our LLM agent that make it more human-like 
 
 With these features, our LLM agent is better equipped to assist users in performing tasks in a natural and effective way. We hope you enjoy our sweet and creamy AI goodness! 🧁🍰🤖
 
+# Talk & Task
+
+🧁👋 Welcome to CupcakeAGI! Here are some sweet deets about the LLM agent that will make your tasks a cakewalk:
+
+- 🗣️ Talk and Task modes make it easy for users to communicate with the LLM and get things done seamlessly.
+- 📁 The LLM converts files like images, videos, and audio to text, making them easy to store and retrieve.
+- 🔍 With access to various tools like search engines, wikis, and translators, the LLM can provide users with the necessary information for their queries.
+- 🧰 Natural language task functions allow users to chain together different tools, making them compatible with each other.
+- 🕰️ The Task mode is particularly useful for lengthy tasks and can be set to start at a specific time, allowing users to focus on other things while the LLM takes care of the task.
+- 💭 The LLM experiences random thoughts and dreams, just like humans, making it more relatable and human-like.
+- 🧑‍💻 The LLM can even use Python packages like Hugging Face models to complete tasks, making it a highly versatile agent.
+So go ahead and give CupcakeAGI a try! With its modular approach, you can easily add new tools and features as needed. Who knew cupcakes and AI could go so well together? 🧁🤖
+
+# Limitations
+Welcome to CupcakeAGI! 🧁🍰🍩🍪
+
+Let's talk about some important things you need to know about this sweet project:
+
+- Complex tasks: While CupcakeAGI is as human-like as possible, it may not be able to solve complex tasks that require significant back and forth. We're talking about tasks that involve negotiating with multiple parties to reach a solution. CupcakeAGI is intended to assist individuals on a personal level, but it may not be suitable for solving highly intricate problems. Don't worry, though, CupcakeAGI is still your go-to for all your cupcake baking needs! 🧁👩‍🍳
+
+- Accuracy of sensory data conversion: The effectiveness of CupcakeAGI relies heavily on the accuracy of the neural network architectures used to convert sensory data into text. If these models are not accurate, CupcakeAGI may misunderstand the user's input, leading to incorrect or ineffective responses. But don't fret, we're constantly working on improving CupcakeAGI's accuracy to ensure you get the best experience possible! 🤖🎂
+
+- Ethics and Privacy: CupcakeAGI has the potential to collect and process a large amount of personal data from the users. Thus, there is a risk that sensitive data may be compromised, leading to privacy concerns. CupCakeAGI will do it's best to keep your cupcake secrets safe! 🔒🤫
+
+Thanks for checking out CupcakeAGI, and remember, with CupcakeAGI by your side, you'll always have the perfect cupcake recipe! 🧁💻
+
+
