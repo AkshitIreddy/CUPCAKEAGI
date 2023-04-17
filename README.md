@@ -28,8 +28,10 @@ Open up another terminal and go to frontend/assistant
 ```sh
 npm run dev
 ```
+Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
 
 # 🚀 Features
+
 - 🌐 Access to internet
 - 🐶 Upload Images
 - 🎵 Upload Audio
