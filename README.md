@@ -69,6 +69,7 @@ Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This pr
 - Beyond the ability to process multisensory data, the human-like LLM agent presented in this paper also exhibits several cognitive abilities that are typically associated with humans. For instance, the agent is equipped with the ability to dream and have random thoughts, which are thought to play important roles in human creativity, memory consolidation, and problem-solving. By incorporating these features into the LLM agent, we aim to create an agent that can assist users in performing tasks in a more natural and effective way and make these agents more human-like.
 
 # Multisensory Data
+
 - 🧁 Welcome back to the world of cupcakes and baking! We all know that human experience is much more than just text-based interactions. It's not just about reading, but also about experiencing the world with all our senses, including sight 👀, sound 🔊, smell 👃, taste 👅, and touch 👐. Similarly, an LLM agent that can work with multisensory data can open up a new world of possibilities for machine learning.
 
 - Instead of missing out on the rich and varied data available through other sensory modalities, we can use neural network architectures that convert various forms of sensory data into text data that the LLM can work with.
@@ -83,5 +84,21 @@ Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This pr
 
 - So, let's get baking with CupcakeAGI and incorporate multisensory data into an LLM agent to create a more natural and effective human-machine interaction. With the availability of different sensory data, the LLM agent can process and understand various types of data, leading to a more human-like agent that can assist us in different tasks.🧁💻
 
+# Human Like Behavior and persistent memory
 
+🧁👋 Welcome to CupcakeAGI, where we bake up some sweet and creamy AI goodness! 🍰🤖
+
+Here are some of the key features of our LLM agent that make it more human-like and effective:
+
+- 🧠 Human-like behavior: Our LLM agent is equipped with several features that mimic human behavior, including the ability to dream, have random thoughts, and perform mental simulations of how to complete a task. These features allow the agent to better understand and respond to user queries.
+
+- 🤖 Persistent memory: Our LLM agent has a state of mind where all files relating to its personality, emotions, thoughts, conversations, and tasks are stored. Even if the agent has stopped running, all relevant information is still stored in this location. This allows the agent to provide a more personalized and effective experience.
+
+- 😃 Emotion parameters: We use emotion parameters such as happiness, sadness, anger, fear, curiosity, and creativity to make the LLM agent more expressive and better understand the user's needs and preferences.
+
+- 💭 Thought bubble: Our LLM agent also has a thought bubble, which is essentially a list of lists that corresponds to different topics. This allows the agent to more effectively process and integrate its thoughts with the user's queries and tasks.
+
+- 🗣️ Conversation storage: The LLM agent stores the conversation it has had so far and the list of tasks it needs to perform. It breaks the conversation into chunks and summarizes it to maintain coherence and relevance. This allows the agent to maintain a coherent and relevant conversation with the user.
+
+With these features, our LLM agent is better equipped to assist users in performing tasks in a natural and effective way. We hope you enjoy our sweet and creamy AI goodness! 🧁🍰🤖
 
