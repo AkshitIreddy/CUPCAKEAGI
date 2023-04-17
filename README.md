@@ -59,4 +59,10 @@ The task feature is used for completing tasks at a start time or by a deadline. 
 
 Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This project was a lot of fun to create, and I'm excited to see where it goes. Thanks for reading, and happy baking!✨
 
+# Why?
+Our brain processes and integrates these sensory inputs to form a coherent perception of the world around us. Similarly, in the realm of artificial intelligence, the ability to process and integrate multisensory data is crucial for building intelligent agents that can interact with humans in a more natural and effective way.
+In recent years, large language models (LLMs) such as ChatGPT and GPT-4 have demonstrated remarkable abilities in generating human-like text based on vast amounts of training data. However, these models are typically limited to working with text and image data and lack the ability to process other types of sensory inputs.
+Beyond the ability to process multisensory data, the human-like LLM agent presented in this paper also exhibits several cognitive abilities that are typically associated with humans. For instance, the agent is equipped with the ability to dream and have random thoughts, which are thought to play important roles in human creativity, memory consolidation, and problem-solving. By incorporating these features into the LLM agent, we aim to create an agent that can assist users in performing tasks in a more natural and effective way and make these agents more human-like.
+
+
 
