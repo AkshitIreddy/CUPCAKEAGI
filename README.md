@@ -1,6 +1,6 @@
 # CUPCAKEAGI
 
-# Demo
+# ✨ Demo
 
 
 
@@ -9,3 +9,9 @@ https://user-images.githubusercontent.com/90443032/232546182-19258002-755d-43cc-
 
 
 # 🚨 Requirements
+
+```sh
+conda create --name aagi python=3.9
+conda activate aagi
+pip install -r requirements.txt
+```
