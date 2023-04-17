@@ -39,7 +39,7 @@ npm run dev
 - 💭 Random Thoughts
 - 😴 Dreams
 - 📝 Assign & schedule Tasks
-
+- 🧑‍💻 Creat & Run Python Code
 
 
 
