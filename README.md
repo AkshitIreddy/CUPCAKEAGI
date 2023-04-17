@@ -40,6 +40,7 @@ npm run dev
 - 😴 Dreams
 - 📝 Assign & schedule Tasks
 - 🧑‍💻 Creat & Run Python Code
+- 🧠 GPT-3.5 as the brain
 
 
 
