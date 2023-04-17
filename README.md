@@ -59,7 +59,7 @@ One of CupcakeAGI's most impressive features is its ability to accept various fo
 
 CupcakeAGI provides two main features for user interaction: talk and task. The talk feature allows for immediate responses to user queries using tools like search engines, calculators, and translators, making it a real-time problem solver. And who doesn't love a good problem solver🧠, especially when it comes to baking cupcakes🧁?
 
-The task feature is used for completing tasks at a start time or by a deadline. This feature allows for chaining multiple tools together using a natural language task function that converts the output of one tool into the input of another, making different tools compatible with each other. So, whether you need to bake some cupcakes for a birthday party or a cupcake contest, CupcakeAGI is here to help you out!
+The task feature is used for completing tasks at a start time or by a deadline. Both Task & Talk features allows for chaining multiple tools together using a natural language task function that converts the output of one tool into the input of another, making different tools compatible with each other. So, whether you need to bake some cupcakes for a birthday party or a cupcake contest, CupcakeAGI is here to help you out!
 
 Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This project was a lot of fun to create, and I'm excited to see where it goes. Thanks for reading, and happy baking!✨
 
