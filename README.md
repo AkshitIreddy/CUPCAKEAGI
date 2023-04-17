@@ -31,6 +31,9 @@ npm run dev
 
 # 🚀 Features
 - 🌐 Access to internet
+- 🐶 Upload Images
+- 🎵 Upload Audio
+- 📹 Upload Video
 - 💾 Persistent Memory
 - ❤️ Emotions
 - 💭 Random Thoughts
