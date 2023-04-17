@@ -84,7 +84,7 @@ Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This pr
 
 - So, let's get baking with CupcakeAGI and incorporate multisensory data into an LLM agent to create a more natural and effective human-machine interaction. With the availability of different sensory data, the LLM agent can process and understand various types of data, leading to a more human-like agent that can assist us in different tasks.🧁💻
 
-# Human Like Behavior and persistent memory
+# Human Like Behavior and Persistent Memory
 
 🧁👋 Welcome to CupcakeAGI, where we bake up some sweet and creamy AI goodness! 🍰🤖
 
