@@ -28,3 +28,16 @@ Open up another terminal and go to frontend/assistant
 ```sh
 npm run dev
 ```
+
+# 🚀 Features
+- 🌐 Access to internet
+- 💾 Persistent Memory
+- ❤️ Emotions
+- 💭 Random Thoughts
+- 😴 Dreams
+- 📝 Assign & schedule Tasks
+
+
+
+
+
