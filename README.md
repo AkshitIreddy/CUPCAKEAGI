@@ -2,7 +2,10 @@
 
 # Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8y7GRYaYYQg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+https://user-images.githubusercontent.com/90443032/232546182-19258002-755d-43cc-bfe2-a45179f51be1.mp4
+
 
 
 # 🚨 Requirements
