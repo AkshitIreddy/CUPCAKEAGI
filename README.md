@@ -1,4 +1,6 @@
-# CUPCAKEAGI
+# CUPCAKEAGI 🧁🍰🎉🤖🧠🍩🍪
+
+Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest project, CupcakeAGI!
 
 # ✨ Demo
 
@@ -44,9 +46,7 @@ Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
 - 🧑‍💻 Creat & Run Python Code
 - 🧠 GPT-3.5 as the brain
 
-# About
-
-Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest project, CupcakeAGI!
+# ✨ About
 
 CupcakeAGI is an agent that aims to mimic human-like behavior and cognitive abilities to assist users in performing various tasks. It's equipped with some sweet🍬 features, including the ability to dream😴, have random thoughts, and perform mental simulations on how to complete a task. Just like how we humans have thoughts floating around our heads, CupcakeAGI has a thought bubble💭 with abstract words.
 
@@ -60,7 +60,7 @@ The task feature is used for completing tasks at a start time or by a deadline. 
 
 Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This project was a lot of fun to create, and I'm excited to see where it goes. Thanks for reading, and happy baking!✨
 
-# Why?
+# ✨ Why?
 
 - Our brain processes and integrates these sensory inputs to form a coherent perception of the world around us. Similarly, in the realm of artificial intelligence, the ability to process and integrate multisensory data is crucial for building intelligent agents that can interact with humans in a more natural and effective way.
 
@@ -68,7 +68,7 @@ Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This pr
 
 - Beyond the ability to process multisensory data, the human-like LLM agent presented in this paper also exhibits several cognitive abilities that are typically associated with humans. For instance, the agent is equipped with the ability to dream and have random thoughts, which are thought to play important roles in human creativity, memory consolidation, and problem-solving. By incorporating these features into the LLM agent, we aim to create an agent that can assist users in performing tasks in a more natural and effective way and make these agents more human-like.
 
-# Multisensory Data
+# ✨ Multisensory Data
 
 - 🧁 Welcome back to the world of cupcakes and baking! We all know that human experience is much more than just text-based interactions. It's not just about reading, but also about experiencing the world with all our senses, including sight 👀, sound 🔊, smell 👃, taste 👅, and touch 👐. Similarly, an LLM agent that can work with multisensory data can open up a new world of possibilities for machine learning.
 
@@ -84,7 +84,7 @@ Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This pr
 
 - So, let's get baking with CupcakeAGI and incorporate multisensory data into an LLM agent to create a more natural and effective human-machine interaction. With the availability of different sensory data, the LLM agent can process and understand various types of data, leading to a more human-like agent that can assist us in different tasks.🧁💻
 
-# Human Like Behavior and Persistent Memory
+# ✨ Human Like Behavior and Persistent Memory
 
 🧁👋 Welcome to CupcakeAGI, where we bake up some sweet and creamy AI goodness! 🍰🤖
 
@@ -102,7 +102,7 @@ Here are some of the key features of our LLM agent that make it more human-like 
 
 With these features, our LLM agent is better equipped to assist users in performing tasks in a natural and effective way. We hope you enjoy our sweet and creamy AI goodness! 🧁🍰🤖
 
-# Talk & Task
+# ✨ Talk & Task
 
 🧁👋 Welcome to CupcakeAGI! Here are some sweet deets about the LLM agent that will make your tasks a cakewalk:
 
@@ -115,7 +115,7 @@ With these features, our LLM agent is better equipped to assist users in perform
 - 🧑‍💻 The LLM can even use Python packages like Hugging Face models to complete tasks, making it a highly versatile agent.
 So go ahead and give CupcakeAGI a try! With its modular approach, you can easily add new tools and features as needed. Who knew cupcakes and AI could go so well together? 🧁🤖
 
-# Limitations
+# ✨ Limitations
 
 Welcome to CupcakeAGI! 🧁🍰🍩🍪
 
@@ -129,7 +129,7 @@ Let's talk about some important things you need to know about this sweet project
 
 Thanks for checking out CupcakeAGI, and remember, with CupcakeAGI by your side, you'll always have the perfect cupcake recipe! 🧁💻
 
-# Conclusion
+# ✨ Conclusion
 
 Welcome to the conclusion of our multisensory LLM agent project! 🎉🧁🤖🧠
 
