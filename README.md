@@ -43,7 +43,7 @@ Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
 - 💭 Random Thoughts
 - 😴 Dreams
 - 📝 Assign & schedule Tasks
-- 🧑‍💻 Creat & Run Python Code
+- 🧑‍💻 Create & Run Python Code
 - 🧠 GPT-3.5 as the brain
 
 # ✨ About
