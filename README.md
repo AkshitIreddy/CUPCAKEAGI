@@ -43,7 +43,7 @@ Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
 
 # ✨ About
 
-![Screenshot 2023-04-17 092049](https://user-images.githubusercontent.com/90443032/232563766-c2bd698b-c029-4221-8e33-3d20d9b0777f.png)
+![00 (2)](https://user-images.githubusercontent.com/90443032/233525427-b49592f8-f469-467d-a2d2-df08095c09cb.png)
 
 
 CupcakeAGI is an agent that aims to mimic human-like behavior and cognitive abilities to assist users in performing various tasks. It's equipped with some sweet🍬 features, including the ability to dream😴, have random thoughts, and perform mental simulations on how to complete a task. Just like how we humans have thoughts floating around our heads, CupcakeAGI has a thought bubble💭 with abstract words.
