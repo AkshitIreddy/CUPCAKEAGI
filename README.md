@@ -1,16 +1,23 @@
 # CUPCAKEAGI 🧁🍰🎉🤖🧠🍩🍪
 
 Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest project, CupcakeAGI!
+# 🚀 Features
+
+- 🌐 Access to internet
+- 🐶 Upload Images
+- 🎵 Upload Audio
+- 📹 Upload Video
+- 💾 Persistent Memory
+- ❤️ Emotions
+- 💭 Random Thoughts
+- 😴 Dreams
+- 📝 Assign & schedule Tasks
+- 🧑‍💻 Create & Run Python Code
+- 🧠 GPT-3.5 as the brain
 
 # ✨ Demo
 
-
-
 https://user-images.githubusercontent.com/90443032/233522184-d59becf3-18e1-4ebd-86ae-09c882ba2104.mp4
-
-
-
-
 
 # 🚨 Requirements
 
@@ -33,20 +40,6 @@ Open up another terminal and go to frontend/assistant
 npm run dev
 ```
 Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
-
-# 🚀 Features
-
-- 🌐 Access to internet
-- 🐶 Upload Images
-- 🎵 Upload Audio
-- 📹 Upload Video
-- 💾 Persistent Memory
-- ❤️ Emotions
-- 💭 Random Thoughts
-- 😴 Dreams
-- 📝 Assign & schedule Tasks
-- 🧑‍💻 Create & Run Python Code
-- 🧠 GPT-3.5 as the brain
 
 # ✨ About
 
