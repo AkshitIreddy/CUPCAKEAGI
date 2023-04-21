@@ -12,6 +12,7 @@ Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest p
 - 💭 Random Thoughts
 - 😴 Dreams
 - 📝 Assign & schedule Tasks
+- 📝 Asynchronous Task Processing 
 - 🧑‍💻 Create & Run Python Code
 - 🧠 GPT-3.5 as the brain
 
