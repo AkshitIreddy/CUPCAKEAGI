@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/90443032/233522184-d59becf3-18e1-4ebd-
 
 # 🚨 Requirements
 
-Open up a terminal and go to backend/Multi-Sensory Virtual AAGI
+Open up a terminal and go to backend/Multi-Sensory Virtual AAGI ( requirements.txt is in this directory )
 ```sh
 conda create --name aagi python=3.9
 conda activate aagi
