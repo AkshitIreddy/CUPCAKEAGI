@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 Open up a terminal and go to backend/Multi-Sensory Virtual AAGI
 ```sh
+conda activate aagi
 uvicorn inference:app
 ```
 
