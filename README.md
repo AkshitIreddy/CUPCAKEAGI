@@ -25,6 +25,7 @@ https://user-images.githubusercontent.com/90443032/233522184-d59becf3-18e1-4ebd-
 
 Open up a terminal and go to backend/Multi-Sensory Virtual AAGI ( requirements.txt is in this directory ) (you need to have conda installed)
 ```sh
+npm install next
 conda create --name aagi --file requirements.txt
 conda activate aagi
 ```
@@ -39,7 +40,6 @@ uvicorn inference:app
 
 Open up another terminal and go to frontend/assistant (you need to have node installed)
 ```sh
-npm install next
 npm run dev
 ```
 Enter your API keys in .env file, You'll need an OPENAI API key, SERPER API key
