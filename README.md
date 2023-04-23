@@ -27,7 +27,6 @@ Open up a terminal and go to backend/Multi-Sensory Virtual AAGI ( requirements.t
 ```sh
 npm install next
 conda create --name aagi --file requirements.txt
-conda activate aagi
 ```
 
 # 🔌 How to use
