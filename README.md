@@ -25,9 +25,8 @@ https://user-images.githubusercontent.com/90443032/233522184-d59becf3-18e1-4ebd-
 
 Open up a terminal and go to backend/Multi-Sensory Virtual AAGI ( requirements.txt is in this directory ) (you need to have conda installed)
 ```sh
-conda create --name aagi python=3.9
+conda create --name aagi --file requirements.txt
 conda activate aagi
-pip install -r requirements.txt
 ```
 
 # 🔌 How to use
