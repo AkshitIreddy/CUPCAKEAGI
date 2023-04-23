@@ -23,10 +23,10 @@ https://user-images.githubusercontent.com/90443032/233522184-d59becf3-18e1-4ebd-
 
 # 🚨 Requirements
 
-Open up a terminal and go to backend/Multi-Sensory Virtual AAGI ( requirements.txt is in this directory ) (you need to have conda installed)
+Open up a terminal and go to backend/Multi-Sensory Virtual AAGI (you need to have conda installed)
 ```sh
 npm install next
-conda create --name aagi --file requirements.txt
+conda env create -f environment.yml
 ```
 
 # 🔌 How to use
