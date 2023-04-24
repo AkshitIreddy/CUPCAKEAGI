@@ -60,6 +60,8 @@ CupcakeAGI provides two main features for user interaction: talk and task. The t
 
 The task feature is used for completing tasks at a start time or by a deadline. Both Task & Talk features allows for chaining multiple tools together using a natural language task function that converts the output of one tool into the input of another, making different tools compatible with each other. So, whether you need to bake some cupcakes for a birthday party or a cupcake contest, CupcakeAGI is here to help you out!
 
+Some abilities like search, calculator, wikipedia search are predefined, these abilities are defined as python functions which the agent can use by creating a python script and importing these functions followed by running the final script and saving the output to a text file which it can access. More abilities can be defined and existing ones can be modified in a modular fashion, all one needs to do is to drop the python script in ability functions and then mention it's name, description and directions to use in abilities.json in state_of_mind directory and just like that the agent will have a new ability. The agent can chain these abilities to do more complex tasks and to ensure compatibility it can use the natural_task_function.
+
 Overall, I hope you find CupcakeAGI to be a sweet addition to your life. This project was a lot of fun to create, and I'm excited to see where it goes. Thanks for reading, and happy baking!✨
 
 # ✨ Why?
