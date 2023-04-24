@@ -11,6 +11,8 @@ Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest p
 - ❤️ Emotions
 - 💭 Random Thoughts
 - 😴 Dreams
+- 🛠️ Pre-defined Abilities
+- 🧱 Modular approach for adding new Abilities
 - 📝 Assign & schedule Tasks
 - 📝 Asynchronous Task Processing 
 - 🗣️ Talk while Tasks are being processed in Background
