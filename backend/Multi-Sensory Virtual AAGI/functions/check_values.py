@@ -9,6 +9,18 @@ load_dotenv()
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def check_values_function():
+    """
+    Checks if all values in the emotion files are 0. If so, generates random values between 0 and 1 and writes them to the emotion files.
+    Args:
+      None
+    Returns:
+      None
+    Side Effects:
+      Writes new values to the emotion files.
+    Examples:
+      >>> check_values_function()
+      New values have been written to the Emotion files.
+    """
     # define the path to the directory where the text files are stored
     dir_path = STATE_DIR
 

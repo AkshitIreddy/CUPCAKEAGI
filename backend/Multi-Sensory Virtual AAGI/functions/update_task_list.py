@@ -10,6 +10,19 @@ load_dotenv()
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def update_task_list_function(well_defined_task, id):
+    """
+    Updates a task list with a new task.
+    Args:
+      well_defined_task (str): The task to add to the list.
+      id (int): The ID of the task.
+    Side Effects:
+      Writes the updated task list to a JSON file.
+    Returns:
+      None
+    Examples:
+      >>> update_task_list_function("Clean the kitchen", 1)
+      None
+    """
     dir_path = STATE_DIR
     # load the JSON file
     with open(os.path.join(dir_path, "task_list.json"), 'r') as f:

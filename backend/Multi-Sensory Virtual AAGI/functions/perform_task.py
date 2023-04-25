@@ -28,6 +28,16 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def perform_task_function(id):
+    """
+    Performs a task given an id.
+    Args:
+      id (int): The id of the task to be performed.
+    Returns:
+      tuple: A tuple containing a string indicating the status of the task, an int indicating the number of seconds to wait for, and a string containing the response.
+    Examples:
+      >>> perform_task_function(1)
+      ('done', 0, 'The user has successfully sent an email to John.')
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     # create conversation string, each dialogue seperated by new line

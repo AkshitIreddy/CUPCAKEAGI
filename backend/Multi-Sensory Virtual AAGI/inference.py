@@ -36,6 +36,15 @@ app.add_middleware(
 )
 
 def task(id):
+    """
+    Performs a task.
+    Args:
+      id (str): The timestamp of the task.
+    Side Effects:
+      Updates conversation, thought bubble, and emotions.
+    Examples:
+      >>> task("2021_04_20_12_30_00")
+    """
     while True:
         print("Checking...")
         check, timer, response = perform_task_function(id)
@@ -72,6 +81,36 @@ async def chat(
     file: UploadFile = File(None),
     question: str = Form(...),
 ):
+    """
+    Handles a chat request.
+    Args:
+      background_tasks (BackgroundTasks): The background tasks.
+      request (Request): The request.
+      credentials (HTTPBasicCredentials): The credentials.
+      file (UploadFile): The file.
+      question (str): The question.
+    Returns:
+      dict: The response.
+    Side Effects:
+      Updates conversation, thought bubble, and emotions.
+    Examples:
+      >>> chat(background_tasks, request, credentials, file, question)
+      {
+          "text": "Task Completed: ...",
+          "emotion_values": "Happiness😊: ... Sadness😭: ... Creativity🤩: ... Curiosity🤔: ... Anger😡: ... Fear😱: ...",
+          "sense_values": "Current Sensory Parameters: Smell👃: ... Taste👅: ... Touch✋:...",
+          "thought": "Thought bubble: ...",
+          "conversation": [
+              {
+                  "message": "...",
+                  "sender": "...",
+                  "file_path": "...",
+                  "file_description": "..."
+              },
+              ...
+          ]
+      }
+    """
     if credentials.username != "myusername" or credentials.password != "mypassword":
         raise HTTPException(status_code=401, detail="Invalid credentials")
     

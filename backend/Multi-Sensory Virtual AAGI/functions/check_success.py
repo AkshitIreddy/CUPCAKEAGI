@@ -20,6 +20,18 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def check_success_function(python_script, information, task_details):
+    """
+    Checks if a given task was successful.
+    Args:
+      python_script (str): The Python script to be evaluated.
+      information (str): The output of the Python script.
+      task_details (str): The details of the task.
+    Returns:
+      tuple: A tuple containing a boolean value and a string. The boolean value indicates if the task was successful, and the string contains the reason for the choice.
+    Examples:
+      >>> check_success_function("from ability_functions.send_email import send_email_function\ndef function(text, receiver):\n    send_email_function(text, receiver)\n    return \"success\"\nresponse = function(\"Hi, i have sent the refund to you!\", \"Bell\")\nwith open(\"tempfiles/output2792.txt\", \"w\") as f:\n    f.write(\"Result \" + response)", "success", "Task details: Send an email to Bell telling him you have sent the refund.")
+      (True, "The task was successfully completed, Bell has received an email stating that we have sent the refund to him.")
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
     instruction1 = "If the task was succesful then output True, if not then False."
     instruction2 = "Give the reason for the choice"

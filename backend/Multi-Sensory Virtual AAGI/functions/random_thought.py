@@ -39,6 +39,20 @@ THOUGHT:\n"""
 assistant_template = """What if we could go back in time and watch Leonardo da Vinci paint the Mona Lisa or witness the construction of the pyramids in ancient Egypt? And what about the future? """
 
 def random_thought_function():
+    """
+    Generates a random thought for the AI assistant Alex.
+    Args:
+      None
+    Returns:
+      str: The random thought generated for Alex.
+    Side Effects:
+      Loads environment variables from the .env file.
+      Reads from the STATE_DIR environment variable.
+      Reads from the personality.txt, thought_bubble.txt, curiosity.txt, creativity.txt, fear.txt, happiness.txt, sadness.txt, and anger.txt files.
+    Examples:
+      >>> random_thought_function()
+      "What if we could go back in time and watch Leonardo da Vinci paint the Mona Lisa or witness the construction of the pyramids in ancient Egypt? And what about the future?"
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     personality = "Peronsality:\n" + open(os.path.join(STATE_DIR, "personality.txt")).read() 

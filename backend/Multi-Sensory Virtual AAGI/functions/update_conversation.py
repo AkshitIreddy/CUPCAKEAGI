@@ -23,6 +23,16 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def tiktoken_len(text):
+    """
+    Calculates the length of a text in tokens.
+    Args:
+      text (str): The text to calculate the length of.
+    Returns:
+      int: The length of the text in tokens.
+    Examples:
+      >>> tiktoken_len("Hello world")
+      2
+    """
     tokenizer = tiktoken.get_encoding('cl100k_base')
     tokens = tokenizer.encode(
         text,
@@ -31,6 +41,16 @@ def tiktoken_len(text):
     return len(tokens)
 
 def summarize(text):
+    """
+    Summarizes a text using OpenAI's GPT-3.5-Turbo model.
+    Args:
+      text (str): The text to summarize.
+    Returns:
+      str: The summarized text.
+    Examples:
+      >>> summarize("This is a long text.")
+      "This is a short summary of the text."
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo')
     human_template1 = "Your Job is to convert this text to clear, concise, readable summaries without missing any important details that could be important for someone to know to answer a question. Summarize this text without losing any important details. \n {text} ."
     human_message_prompt1 = HumanMessagePromptTemplate.from_template(human_template1)
@@ -39,6 +59,19 @@ def summarize(text):
     return response.content
 
 def update_conversation_function(user_response, sender, file_path, file_description):
+    """
+    Updates the conversation with a new message.
+    Args:
+      user_response (str): The user's response.
+      sender (str): The sender of the message.
+      file_path (str): The path of the file uploaded by the user.
+      file_description (str): The description of the file uploaded by the user.
+    Returns:
+      str: An empty string.
+    Examples:
+      >>> update_conversation_function("Hello!", "User", "", "")
+      ""
+    """
     with open(os.path.join(STATE_DIR, "num_memories.txt"), "r") as f:
         num_memories = int(f.read().strip())
 

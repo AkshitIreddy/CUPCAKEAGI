@@ -21,6 +21,18 @@ STATE_DIR = os.environ.get("STATE_DIR")
 
 
 def update_emotion_function(emotion):
+    """
+    Updates the emotion value in the state_of_mind directory.
+    Args:
+      emotion (str): The emotion to update.
+    Returns:
+      None
+    Side Effects:
+      Writes the updated emotion value to the state_of_mind directory.
+    Examples:
+      >>> update_emotion_function('happiness')
+      None
+    """
     # chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
     # # create conversation string, each dialogue seperated by new line
     # with open(os.path.join(STATE_DIR,'conversation.json'), 'r') as f:
@@ -73,6 +85,18 @@ def update_emotion_function(emotion):
 
 
 def update_emotions_function():
+    """
+    Updates all emotion values in the state_of_mind directory.
+    Args:
+      None
+    Returns:
+      None
+    Side Effects:
+      Writes the updated emotion values to the state_of_mind directory.
+    Examples:
+      >>> update_emotions_function()
+      None
+    """
     update_emotion_function('happiness')
     update_emotion_function('sadness')
     update_emotion_function('anger')

@@ -22,6 +22,16 @@ STATE_DIR = os.environ.get("STATE_DIR")
 
 
 def mental_simulation_function(id):
+    """
+    Simulates a conversation between Alex and the user.
+    Args:
+      id (int): The id of the task.
+    Returns:
+      str: The response from Alex.
+    Examples:
+      >>> mental_simulation_function(1)
+      "Alex's response to the task."
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     # create conversation string, each dialogue seperated by new line

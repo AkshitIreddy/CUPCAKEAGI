@@ -60,6 +60,21 @@ print(df)
 """ 
 
 def handle_error_function(python_script, requirements, error, id):
+    """
+    Handles errors in python scripts and requirements files.
+    Args:
+      python_script (str): The python script to be modified.
+      requirements (str): The requirements file to be modified.
+      error (str): The error message.
+      id (int): The id of the conversation.
+    Returns:
+      None: No return value.
+    Side Effects:
+      Writes modified python script and requirements files to the tempfiles directory.
+    Examples:
+      >>> handle_error_function(python_script_template, requirements_template, error_template, 1)
+      None
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     # create conversation string, each dialogue seperated by new line

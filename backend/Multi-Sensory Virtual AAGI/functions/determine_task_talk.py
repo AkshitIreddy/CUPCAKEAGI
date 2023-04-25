@@ -33,6 +33,20 @@ assistant: That's nice!
 human: can you explain how to fill a tire, the instructions should be written as a poem."""
 human_template4 = """Conversation\n{conversation_str}\nIF THE QUESTION DOES NOT HAVE A START TIME OR DEADLINE THEN IT IS NOT A TASK. UNDER NO CIRCUMSTANCE SHOULD YOU OUTPUT Task WHEN START TIME OR DEADLINE IS NOT MENTIONED. YOU SHOULD OUTPUT Talk. Talk IS THE DEFAULT ANSWER ALWAYS. IF THE USER EXPLICITLY MENTION ITS A TASK THEN OUTPUT Task ."""
 def determine_task_talk_function():
+    """
+    Determines whether a user's message is a task or a conversation.
+    Args:
+      None
+    Returns:
+      str: The response from the chatbot.
+    Side Effects:
+      Loads environment variables from the .env file.
+      Loads the abilities.json file.
+      Loads the conversation.json file.
+    Examples:
+      >>> determine_task_talk_function()
+      'Talk'
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     # Load the ability JSON file
