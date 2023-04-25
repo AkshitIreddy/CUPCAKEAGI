@@ -43,7 +43,7 @@ def mental_simulation_function(id):
 
     task_details = find_task_by_id_function(id)
 
-    personality = "Peronsality:\n" + open(os.path.join(STATE_DIR, "personality.txt")).read() 
+    personality = "Personality:\n" + open(os.path.join(STATE_DIR, "personality.txt")).read() 
 
     thought_bubble = "\nAlex's thought bubble\n" + open(os.path.join(STATE_DIR, "thought_bubble.txt")).read() 
 
