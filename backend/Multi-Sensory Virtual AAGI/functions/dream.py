@@ -78,7 +78,7 @@ def dream_function():
             conversation_str += '\nFile Uploaded by ' + message['sender'] + ": " + message['file_upload']
         conversation_str += '\n'
 
-    personality = "Peronsality:\n" + open(os.path.join(STATE_DIR, "personality.txt")).read() 
+    personality = "Personality:\n" + open(os.path.join(STATE_DIR, "personality.txt")).read() 
 
     thought_bubble = "\nAlex's thought bubble\n" + open(os.path.join(STATE_DIR, "thought_bubble.txt")).read() 
 
