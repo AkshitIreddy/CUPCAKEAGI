@@ -55,14 +55,14 @@ human_template3 = "Give the list of packages for requirements.txt to install bas
 
 def create_requirements_function(script):
     """
-    Generates a list of packages for requirements.txt based on a given script.
+    Generates a list of packages for requirements.txt based on a given code.
     Args:
-      script (str): The script to generate the list of packages from.
+      script (str): The code to generate the list of packages from.
     Returns:
       str: A list of packages for requirements.txt, or 'empty' if no packages are needed.
     Examples:
       >>> create_requirements_function("import numpy as np")
-      numpy
+      "numpy"
     """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
     human_message_prompt = HumanMessagePromptTemplate.from_template(human_template)

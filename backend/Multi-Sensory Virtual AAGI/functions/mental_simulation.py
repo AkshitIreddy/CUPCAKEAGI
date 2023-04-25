@@ -23,14 +23,17 @@ STATE_DIR = os.environ.get("STATE_DIR")
 
 def mental_simulation_function(id):
     """
-    Simulates a conversation between Alex and the user.
+    Simulates a conversation between Alex and a user.
     Args:
-      id (int): The id of the task.
+      id (int): The id of the task to be simulated.
     Returns:
-      str: The response from Alex.
+      str: The response from the conversation.
+    Side Effects:
+      Loads environment variables from the .env file.
+      Loads conversation.json, abilities.json, personality.txt, and thought_bubble.txt from the STATE_DIR.
     Examples:
       >>> mental_simulation_function(1)
-      "Alex's response to the task."
+      "Alex's response to the conversation."
     """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 

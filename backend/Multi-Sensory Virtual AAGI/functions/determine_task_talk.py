@@ -34,7 +34,7 @@ human: can you explain how to fill a tire, the instructions should be written as
 human_template4 = """Conversation\n{conversation_str}\nIF THE QUESTION DOES NOT HAVE A START TIME OR DEADLINE THEN IT IS NOT A TASK. UNDER NO CIRCUMSTANCE SHOULD YOU OUTPUT Task WHEN START TIME OR DEADLINE IS NOT MENTIONED. YOU SHOULD OUTPUT Talk. Talk IS THE DEFAULT ANSWER ALWAYS. IF THE USER EXPLICITLY MENTION ITS A TASK THEN OUTPUT Task ."""
 def determine_task_talk_function():
     """
-    Determines whether a user's message is a task or a conversation.
+    Determines whether a given conversation is a task or talk.
     Args:
       None
     Returns:

@@ -33,10 +33,10 @@ def perform_task_function(id):
     Args:
       id (int): The id of the task to be performed.
     Returns:
-      tuple: A tuple containing a string indicating the status of the task, an int indicating the number of seconds to wait for, and a string containing the response.
+      tuple: A tuple containing the status of the task, the number of seconds to wait for, and the response.
     Examples:
       >>> perform_task_function(1)
-      ('done', 0, 'The user has successfully sent an email to John.')
+      ('done', 0, 'The user has sent an email to John.')
     """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 

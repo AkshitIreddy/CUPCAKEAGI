@@ -60,7 +60,7 @@ def summarize(text):
 
 def update_conversation_function(user_response, sender, file_path, file_description):
     """
-    Updates the conversation with a new message.
+    Updates the conversation with a new message and summarizes the conversation if it is too long.
     Args:
       user_response (str): The user's response.
       sender (str): The sender of the message.
@@ -68,6 +68,8 @@ def update_conversation_function(user_response, sender, file_path, file_descript
       file_description (str): The description of the file uploaded by the user.
     Returns:
       str: An empty string.
+    Side Effects:
+      Writes the updated conversation to the conversation.json file.
     Examples:
       >>> update_conversation_function("Hello!", "User", "", "")
       ""

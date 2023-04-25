@@ -24,7 +24,8 @@ def search_function(question):
       str: Output of the search.
     Examples:
       >>> search_function("What is the capital of France?")
-      "Searching for information on this What is the capital of France?\nParis"
+      "Searching for information on this What is the capital of France?
+      Paris"
     """
     # Redirecting stdout to StringIO object
     old_stdout = sys.stdout
