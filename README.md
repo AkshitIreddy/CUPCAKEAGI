@@ -1,6 +1,9 @@
 # CUPCAKEAGI 🧁🍰🎉🤖🧠🍩🍪
 
 Hey there cupcake lovers🧁❤️! I am excited to introduce you to my latest project, CupcakeAGI!
+You can find the documentation here:
+https://akshitireddy.github.io/CUPCAKEAGI/
+
 # 🚀 Features
 
 - 🌐 Access to internet
