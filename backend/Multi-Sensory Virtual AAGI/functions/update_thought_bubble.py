@@ -19,6 +19,18 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def update_thought_bubble_function():
+    """
+    Updates the thought bubble with a modified version based on a conversation.
+    Args:
+      None
+    Returns:
+      None
+    Side Effects:
+      Writes the modified thought bubble to the file state_of_mind/thought_bubble.txt
+    Examples:
+      >>> update_thought_bubble_function()
+      None
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
     # create conversation string, each dialogue seperated by new line
     with open(os.path.join(STATE_DIR,'conversation.json'), 'r') as f:

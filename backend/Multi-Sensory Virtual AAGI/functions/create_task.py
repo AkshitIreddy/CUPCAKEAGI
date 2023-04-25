@@ -20,6 +20,17 @@ STATE_DIR = os.environ.get("STATE_DIR")
 
 
 def create_task_function():
+    """
+    Creates a task function for an AI assistant.
+    Args:
+      None
+    Returns:
+      str: A string containing the task description, goals, and start time.
+    Examples:
+      >>> create_task_function()
+      "You are Alex an AI assistant that uses a very Large Language Model.
+      The user is asking you to perform a task. Write a small description of the task along with the expected goals and any additional information that would be helpful for someone performing this task who has no knowledge of the prior conversation. Clearly mention the start time for the task at the end."
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     # Load the ability JSON file

@@ -15,6 +15,16 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 image_to_text = pipeline("image-to-text", model="nlpconnect/vit-gpt2-image-captioning")
 
 def file_describe_function(file_path):
+    """
+    Generates a description of a file based on its type.
+    Args:
+      file_path (str): The path of the file to be described.
+    Returns:
+      str: A description of the file.
+    Examples:
+      >>> file_describe_function('example.jpg')
+      'Image Uploaded. Description of the image.'
+    """
     file_extension = os.path.splitext(file_path)[1]
     if file_extension in ('.jpg', '.jpeg', '.png', '.gif', '.bmp'):
         print('Image Uploaded')

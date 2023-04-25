@@ -6,6 +6,16 @@ from functions.update_task_list import update_task_list_function
 from functions.start_task_message import start_task_message_function
 
 def main_function(id):
+    """
+    Main function to determine the action and response.
+    Args:
+      id (int): The id of the user.
+    Returns:
+      tuple: A tuple containing the action and response.
+    Examples:
+      >>> main_function(1)
+      ('Talk', 'What can I do for you?')
+    """
     check_values_function()
     action = determine_task_talk_function()
     print("Action is " + action)

@@ -16,6 +16,17 @@ os.environ["SERPER_API_KEY"] = SERPER_API_KEY
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 def search_function(question):
+    """
+    Searches for information on a given question.
+    Args:
+      question (str): The question to search for.
+    Returns:
+      str: Output of the search.
+    Examples:
+      >>> search_function("What is the capital of France?")
+      "Searching for information on this What is the capital of France?
+      Paris"
+    """
     # Redirecting stdout to StringIO object
     old_stdout = sys.stdout
     sys.stdout = result = StringIO()

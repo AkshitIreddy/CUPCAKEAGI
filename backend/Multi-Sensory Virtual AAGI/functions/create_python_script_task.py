@@ -95,6 +95,16 @@ human: Which laptop is better alienware X839 or alienware X758?\nIf you don't ne
 human_template4 = "Conversation:\n{conversation_str}\n{task_details}\nIf you don't need to execute python code or use any of the above tools to solve the user's task then output none .You can chain abilities in the python script. You can use the natural_language_task function to connect different abilities."
 
 def create_python_script_task_function(id):
+    """
+    Creates a python script for a given task.
+    Args:
+      id (int): The ID of the task.
+    Returns:
+      str: The python script for the task.
+    Examples:
+      >>> create_python_script_task_function(1)
+      'import os\\nimport sys\\n# Get the absolute path to the current directory\\ncurrent_dir = os.path.dirname(os.path.abspath(__file__))\\n# Add the path to the root directory\\nsys.path.append(os.path.join(current_dir, '..'))\\n# Import the search_function from the search module, You need to append _function to the name of the tool\\nfrom ability_functions.search import search_function\\ndef python_function(text):\\n    # search for relevant information on this topic\\n    search_response = search_function(text)\\n    # create an instructions that tells the natural language function to extract the search response and frame it as question\\n    instructions = "Create a question in words that tells to divide the total amount spent by 10.\\nYou can find the total amount spent by analyzing this piece of text\\n" + search_response\\n    # get the question\\n    question = natural_language_task_function(instructions)\\n    # pass the question to the calculator function to get the answer\\n    answer = calculator_function(question)\\n    # write the result to tempfiles/output{id}.txt file\\n    with open("tempfiles/output{id}.txt", "w") as f:\\n        f.write("Search response was " + search_response)\\n        f.write("After Computation the answer is " + str(answer))\\n#call the function\\npython_function("Total Cost USA Latest Semiconductor Bill")'
+    """
     chat = ChatOpenAI(temperature  = 0, model= 'gpt-3.5-turbo', openai_api_key=OPENAI_API_KEY)
 
     personality = open(os.path.join(STATE_DIR, "personality.txt")).read()

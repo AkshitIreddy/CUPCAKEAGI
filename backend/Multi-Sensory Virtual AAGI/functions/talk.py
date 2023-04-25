@@ -24,6 +24,18 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 STATE_DIR = os.environ.get("STATE_DIR")
 
 def talk_function(id):
+    """
+    Talks to an AI assistant.
+    Args:
+      id (str): The ID of the conversation.
+    Returns:
+      str: The response of the AI assistant.
+    Side Effects:
+      Creates a python script, requirements, and output files in the tempfiles directory.
+    Examples:
+      >>> talk_function('2020_08_20_12_30_00')
+      "Hello, how can I help you?"
+    """
     script_flag = 0
     python_script = create_python_script_function(id)
     print("Python Script is\n" + python_script)
